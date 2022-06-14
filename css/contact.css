@@ -1,0 +1,105 @@
+/* astrid should be at the very top and is the styling for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/purple.jpg");
+    background-repeat: repeat;
+}
+
+/* this is the start of my navigation styles*/
+
+ nav {
+     height: 100px;
+     width: 100%;
+     background-color: aquamarine;
+     margin-bottom: 10px;
+ }
+ 
+
+ nav ul {
+     float: right;
+     list-style-type: none;
+ }
+
+ nav ul li {
+     display: inline-block;
+     margin: 40px 35px;
+ }
+
+ nav ul li a {
+     color: rgb(167, 125, 74);
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ nav ul li a:hover {
+     color: rgb(126, 217, 87);
+ }
+
+ /* This is the end of the navigation css */
+
+ /* div section */
+
+
+section {
+    width: 100%;
+    height: 610px;
+}
+
+.photoleft {
+    float:left;
+    clear: both;
+
+  }
+
+  .photoright {
+      float:right;
+    clear: right;
+    
+  }
+
+  .copy-text {
+    color: #fff;
+    text-align: center;
+    font-size: 105px;
+    /* Below the position property is being used with it's corresponding properties to center the copy text right in the center of the hero section */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+/* FOOTER STARTS BELOW */
+
+footer {
+    height: 190px;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+}
+
+footer .columnfooter {
+    float: left;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+footer .columnfooter > img {
+    width: 110px;
+    height: 110px;
+    float: left;
+    padding-left: 50px;
+}
+
+
+footer .row {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 

@@ -1,0 +1,171 @@
+/* astrid should be at the very top and is the styling for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/purple.jpg");
+    background-repeat: repeat;
+    height: 100%;
+}
+
+/* this is the start of my navigation styles*/
+
+ nav {
+     height: 100px;
+     width: 100%;
+     background-color: aquamarine;
+     margin-bottom: 10px;
+ }
+ 
+
+ nav ul {
+     float: right;
+     list-style-type: none;
+ }
+
+ nav ul li {
+     display: inline-block;
+     margin: 40px 35px;
+ }
+
+ nav ul li a {
+     color: rgb(167, 125, 74);
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ nav ul li a:hover {
+     color: rgb(126, 217, 87);
+ }
+
+ /* This is the end of the navigation css */
+
+/* Main Section */
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+main .textone {
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    top: 45%;
+    left: 50%;
+    padding-bottom: 20px;
+  }
+
+  /* End Main Section */
+
+/* Section Begining */
+
+section {
+    background-color: black;
+}
+section .body {
+    color: #fff;
+}
+section .photoleft {
+    float:left;
+    clear: both;
+    padding-left: 150px;
+    padding-bottom: 20px;
+
+  }
+
+section .firsttext {
+    float:right;
+    padding-left: 20px;
+
+}
+
+section .photoright {
+    float:right;
+    clear: left;
+    padding-top: 50px;
+    padding-right: 150px;
+  }
+
+section .secondtext {
+    float:left;
+    padding-right: 20px;
+
+}
+
+section .photolefttwo {
+    float:left;
+    clear: both;
+    padding-left: 150px;
+    padding-bottom: 20px;
+
+  }
+
+section .thirdtext {
+    float:right;
+    padding-left: 20px;
+
+}
+
+section .photorighttwo {
+    float:right;
+    clear: left;
+    padding-top: 50px;
+    padding-right: 150px;
+  }
+
+section .fourthtext {
+    float:left;
+    padding-right: 20px;
+
+}
+
+/* end of section */
+
+/* begining of footer */
+
+ footer {
+    background-color: purple;
+    height: 130px;
+    clear:both;
+  }
+
+  .logo {
+    float: left;
+    height: 110px;
+    width: 100px;
+    margin: 10px 15px;
+}
+
+footer {
+    height: 190px;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+}
+
+footer .columnfooter {
+    float: left;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+footer .columnfooter > img {
+    width: 110px;
+    height: 110px;
+    float: left;
+    padding-left: 50px;
+}
+
+
+footer .row {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 
+
+/* end of footer */

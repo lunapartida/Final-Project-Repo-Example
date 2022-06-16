@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("/img/purple.jpg");
+    background-image: url("/img/greenwater.jpg");
     background-repeat: repeat;
 }
 
@@ -14,13 +14,12 @@ body {
  nav {
      height: 100px;
      width: 100%;
-     background-color: aquamarine;
      margin-bottom: 10px;
  }
  
 
  nav ul {
-     float: right;
+     text-align: center;
      list-style-type: none;
  }
 
@@ -30,7 +29,7 @@ body {
  }
 
  nav ul li a {
-     color: rgb(167, 125, 74);
+     color: rgb(255, 255, 255);
      font-weight: bolder;
      text-transform: uppercase;
      text-decoration: none;
@@ -78,7 +77,6 @@ section {
 
 footer {
     height: 190px;
-    background-color: greenyellow;
     color:black;
     text-align: center;
 }

@@ -72,7 +72,12 @@ section .photoleft {
     padding-left: 150px;
     padding-bottom: 20px;
 
-  }
+}
+
+/* section .header{
+    float:right;
+    padding-left: 10px;
+} */
 
 section .firsttext {
     float:right;

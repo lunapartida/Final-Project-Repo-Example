@@ -58,9 +58,10 @@ body {
 
  h1 {
     text-align: center;
+    text-transform: uppercase;
  }
  aside{
-    height: 680px;
+    height: 800px;
     width: 45%;
     background-color: green;
     float: left;
@@ -97,20 +98,26 @@ aside .container {
     background-color: #f1f1f1;
     padding: 30px;
     margin-left: 180px;
-    margin-top: 40px;
+    margin-top: 85px;
 
   }
 
 
 section{
-    height: 340px;
+    height: 400px;
     width: 55%;
     background-color: #800080;
     float: right;
 }
 
+section .google-map {
+    position:relative;
+    top: 5%;
+    left: 30%;
+}
+
 article {
-    height: 340px;
+    height: 400px;
     width: 55%;
     background-color: purple;
     float: right;
@@ -120,7 +127,8 @@ article form {
     border: 3px solid #f1f1f1;
     width: 55%;
     position: relative;
-    left: 20%;
+    left: 23%;
+    top: 5%;
   }
   
 article .container {
@@ -138,12 +146,14 @@ article input[type=text], input[type=submit] {
   
 article input[type=checkbox] {
     margin-top: 16px;
+    cursor: pointer;
   }
   
 article input[type=submit] {
     background-color: #04AA6D;
     color: white;
     border: none;
+    cursor: pointer;
   }
   
 article input[type=submit]:hover {

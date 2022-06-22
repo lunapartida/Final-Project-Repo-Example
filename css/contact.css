@@ -1,22 +1,25 @@
-/* astrid should be at the very top and is the styling for the entire page */
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-image: url("/img/greenwater.jpg");
-    background-repeat: repeat;
-}
-
 /* this is the start of my navigation styles*/
 
  nav {
-     height: 100px;
+     height: 105px;
      width: 100%;
      margin-bottom: 10px;
+     background-color: aqua;
+     position: sticky;
+     top: 0;
+     z-index: 1;
  }
- 
+
+ .logo {
+    width: 110px;
+    height: 110px;
+    float: left;
+ }
 
  nav ul {
      text-align: center;
@@ -41,59 +44,67 @@ body {
 
  /* This is the end of the navigation css */
 
- /* div section */
+ /* body section */
 
-
-section {
-    width: 100%;
-    height: 610px;
+body {
+    background-image: url("/img/greenwater.jpg");
+    background-repeat: repeat;
 }
 
-.photoleft {
-    float:left;
-    clear: both;
+/* end of body */
 
-  }
 
-  .photoright {
-      float:right;
-    clear: right;
-    
-  }
+ /* div section */
 
-  .copy-text {
-    color: #fff;
+ h1 {
     text-align: center;
-    font-size: 105px;
-    /* Below the position property is being used with it's corresponding properties to center the copy text right in the center of the hero section */
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+ }
+ aside{
+    height: 680px;
+    width: 35%;
+    background-color: green;
+    float: left;
+}
+section{
+    height: 340px;
+    width: 65%;
+    background-color: purple;
+    float: right;
+}
 
+article {
+    height: 340px;
+    width: 65%;
+    background-color: purple;
+    float: right;
+}
+
+
+/* end of div section */
 
 /* FOOTER STARTS BELOW */
 
-footer {
+footer{
+    width: 100%;
     height: 190px;
-    color:black;
+    clear: both;
+    background-color: pink;
     text-align: center;
 }
+
+
+/* footer {
+    height: 190px;
+    color:black;
+    background-color: aqua;
+    text-align: center;
+} */
 
 footer .columnfooter {
     float: left;
     width: 50%;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
 }
-
-footer .columnfooter > img {
-    width: 110px;
-    height: 110px;
-    float: left;
-    padding-left: 50px;
-}
-
 
 footer .row {
     content: "";

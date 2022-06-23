@@ -59,6 +59,7 @@ body {
  h1 {
     text-align: center;
     text-transform: uppercase;
+    color:rgb(113, 205, 194);
  }
  aside{
     height: 800px;
@@ -67,8 +68,15 @@ body {
     float: left;
     margin-bottom: 10px;
 }
+aside .google-form{
+  background-color: rgb(113, 205, 194);
+  width: 50%;
+  padding: 30px;
+  margin-left: 180px;
+  margin-top: 85px;
+}
 
-aside input[type=text], select, textarea {
+/* aside input[type=text], select, textarea {
     
     width: 50%;
     padding: 12px;
@@ -101,7 +109,7 @@ aside .container {
     margin-left: 180px;
     margin-top: 85px;
 
-  }
+  } */
 
 
 section{
@@ -151,7 +159,7 @@ article input[type=checkbox] {
   }
   
 article input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(113, 205, 194);;
     color: white;
     border: none;
     cursor: pointer;
@@ -193,3 +201,16 @@ footer .row {
     text-align: center;
 
 } 
+
+footer .fab {
+  color: rgb(81, 145, 100);
+
+}
+footer .fab:hover{
+  color:rgb(113, 205, 194);
+}
+a:-webkit-any-link {
+  color: none;
+  cursor: pointer;
+  text-decoration: none;
+}

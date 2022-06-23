@@ -15,6 +15,10 @@ body {
 nav {
      height: 100px;
      width: 100%;
+     background-color: rgba(255, 255, 255, 0.521);
+     position: sticky;
+     top: 0;
+     z-index: 1;
 }
 
 .logo {
@@ -47,63 +51,52 @@ nav ul li a:hover {
  /* This is the end of the navigation css */
 
 
-/* Section Begining */
-
-.background {
+/* Main section */
+main {
+    width: 1000px;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.466);
-    margin-left: 150px;
-    width: 85%;
-    height: 2000px;
-}
-section .textone {
-    color: #fff;
-    text-align: center;
-    font-size: 80px;
-    top: 45%;
-    left: 50%;
-    padding-bottom: 20px;
-}
-section .text {
-    color: #fff;
-}
-section .photoleft {
-    float:left;
-    clear: both;
-    padding-left: 150px;
-    padding-bottom: 20px;
+    margin-top: 2%;
 
 }
-
-/* section .header{
-    float:right;
-    padding-left: 10px;
-} */
-
-section .firsttext {
-    float:right;
-    padding-left: 20px;
-
+main > section {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+main > section > img {
+    width: 400px;
+    float: left;
+    border: 2px solid;
+    margin: .5rem 1rem;
 }
 
-section .photoright {
-    float:right;
-    clear: left;
-    padding-top: 50px;
-    padding-right: 150px;
-  }
+main > section + section {
+clear:both
+}
 
-section .secondtext {
-    float:left;
-    padding-right: 20px;
+main>section+section img {
+    width: 400px;
+    float: right;
+}
 
+main>section+section+section img {
+    width: 400px;
+    float: left;
+    border: 2px solid;
+    margin: .5rem 1rem;
+}
+
+main>section+section+section+section img {
+    width: 400px;
+    float: right;
 }
 
 
-/* end of section */
 
 /* begining of footer */
 footer {
     height: 190px;
+    background-color: rgba(255, 255, 255, 0.521);
     color:black;
     text-align: center;
     clear:both;

@@ -78,7 +78,7 @@ main .photoleft {
     text-transform: uppercase;
     color: rgb(81, 145, 100);
     text-shadow: 4px 4px rgb(113, 205, 194);
-    background-color: rgba(255, 255, 255, 0.699);
+    background-color: rgba(255, 255, 255, 0.521);
     position: absolute;
     top: 50%;
     left: 50%;

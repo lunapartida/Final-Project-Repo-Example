@@ -62,9 +62,8 @@ nav ul li a {
 main {
     color: rgb(113, 205, 194);
     width: 1600px;
-    height: 2200px;
+    height: 1800px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.466);
     margin-top: 2%;
     margin-bottom: 2%;
 
@@ -73,53 +72,64 @@ section .textone {
     color: rgb(113, 205, 194);
     text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     padding-bottom: 20px;
 }
 
-section .leftheader {
-    text-align: left;
-    color: rgb(81, 145, 100);
-    text-shadow: 1px 1px rgb(255, 255, 255);
+h2 {
+    color: rgb(113, 205, 194);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
-section .rightheader {
-    text-align: right;
-    color: rgb(81, 145, 100);
-    text-shadow: 1px 1px rgb(255, 255, 255);
-}
-main > section {
-    margin-bottom: 3rem;
-    padding: 0 1rem;
-}
-main > section > img {
-    width: 400px;
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
     float: left;
-    border: 2px solid;
-    margin: .5rem 1rem;
-}
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+    background-color: rgba(0, 0, 0, 0.466);
+    text-align: center;
 
-main > section + section {
-clear:both
-}
+  }
 
-main>section+section img {
-    width: 400px;
-    float: right;
-}
+  .column img{
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(113, 205, 194);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #519164;}
+  
+  .button:active {
+    background-color: rgb(81, 145, 100);
+    box-shadow: 0 5px #519164;
+    transform: translateY(4px);
+  }
 
-main>section+section+section img {
-    width: 400px;
-    float: left;
-    border: 2px solid;
-    margin: .5rem 1rem;
-}
-
-main>section+section+section+section img {
-    width: 400px;
-    float: right;
-}
-
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 /* begining of footer */
@@ -145,6 +155,7 @@ footer .columnfooter a {
 footer .columnfooter a:hover{
     color: rgb(113, 205, 194);
 }
+
 
 footer .row {
     content: "";

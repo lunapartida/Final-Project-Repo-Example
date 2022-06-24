@@ -40,15 +40,20 @@ body {
  }
 
  nav ul li a {
-     color: rgb(255, 255, 255);
+    color: rgb(81, 145, 100);
+    text-shadow: 2px 2px rgb(113, 205, 194);
+    border-radius: 15px;
      font-weight: bolder;
+     font-size: 20px;
+     padding: 37px;
      text-transform: uppercase;
      text-decoration: none;
  }
 
  nav ul li a:hover {
-     color: rgb(126, 217, 87);
-     background-color: aqua;
+     color: white;
+     text-shadow: 2px 2px rgb(113, 205, 194);
+     background-color: rgb(81, 145, 100);
  }
 
  /* This is the end of the navigation css */
@@ -90,6 +95,9 @@ main .photoleft {
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
     white-space: nowrap;
     font-size: 30px;
     font-weight: 700;
@@ -139,6 +147,16 @@ footer .columnfooter {
     margin-top: 3.5rem;
     color:black;
     text-align: center;
+    
+}
+
+footer .columnfooter a {
+    color: rgb(81, 145, 100);
+    text-decoration: none;
+}
+
+footer .columnfooter a:hover{
+    color: rgb(113, 205, 194);
 }
 
 

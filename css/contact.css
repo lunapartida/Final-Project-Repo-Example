@@ -5,42 +5,48 @@
 
 /* this is the start of my navigation styles*/
 
- nav {
-     height: 115px;
-     width: 100%;
-     margin-bottom: 10px;
-     background-color: rgba(255, 255, 255, 0.521);
-     position: sticky;
-     top: 0;
-     z-index: 1;
- }
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.521);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 10px;
+}
 
- .logo {
-    width: 110px;
-    height: 110px;
-    float: left;
- }
+.logo {
+ float: left;
+ height: 100px;
+ width: 100px;
+} 
 
- nav ul {
-     text-align: center;
-     list-style-type: none;
- }
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
 
- nav ul li {
-     display: inline-block;
-     margin: 40px 35px;
- }
+nav ul li {
+  display: inline-block;
+  margin: 40px 35px;
+}
 
- nav ul li a {
-     color: rgb(255, 255, 255);
-     font-weight: bolder;
-     text-transform: uppercase;
-     text-decoration: none;
- }
+nav ul li a {
+  color: rgb(81, 145, 100);
+  text-shadow: 2px 2px rgb(113, 205, 194);
+  border-radius: 15px;
+   font-weight: bolder;
+   font-size: 20px;
+   padding: 37px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
 
- nav ul li a:hover {
-     color: rgb(126, 217, 87);
- }
+nav ul li a:hover {
+   color: white;
+   text-shadow: 2px 2px rgb(113, 205, 194);
+   background-color: rgb(81, 145, 100);
+}
 
  /* This is the end of the navigation css */
 
@@ -59,7 +65,8 @@ body {
  h1 {
     text-align: center;
     text-transform: uppercase;
-    color:rgb(113, 205, 194);
+    color: rgb(113, 205, 194);
+    text-shadow: 1.5px 1.5px rgb(255, 255, 255);
  }
  aside{
     height: 800px;
@@ -75,42 +82,6 @@ aside .google-form{
   margin-left: 180px;
   margin-top: 85px;
 }
-
-/* aside input[type=text], select, textarea {
-    
-    width: 50%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-aside input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-aside input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-aside .container {
-    width: 50%;
-    border-radius: 5px;
-    background-color: #f1f1f1;
-    padding: 30px;
-    margin-left: 180px;
-    margin-top: 85px;
-
-  } */
-
 
 section{
     height: 400px;
@@ -138,6 +109,9 @@ article form {
     position: relative;
     left: 23%;
     top: 5%;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(81, 145, 100);
   }
   
 article .container {
@@ -182,17 +156,20 @@ footer{
 }
 
 
-/* footer {
-    height: 190px;
-    color:black;
-    background-color: aqua;
-    text-align: center;
-} */
 
 footer .columnfooter {
     float: left;
     width: 50%;
     margin-top: 3.5rem;
+}
+
+footer .columnfooter a {
+  color: rgb(81, 145, 100);
+  text-decoration: none;
+}
+
+footer .columnfooter a:hover{
+  color: rgb(113, 205, 194);
 }
 
 footer .row {

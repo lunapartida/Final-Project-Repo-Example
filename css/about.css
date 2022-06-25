@@ -29,6 +29,7 @@ nav {
 } 
 
 nav ul {
+    font-family: 'Vidaloka', serif;
     list-style-type: none;
     text-align: center;
 }
@@ -60,6 +61,7 @@ nav ul li a {
 
 /* Main section */
 main {
+    font-family: 'Sorts Mill Goudy', serif;
     color: rgb(113, 205, 194);
     width: 1600px;
     height: 2200px;
@@ -70,6 +72,7 @@ main {
 
 }
 section .textone {
+    font-family: 'Kaushan Script', cursive;
     color: rgb(113, 205, 194);
     text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
@@ -78,15 +81,19 @@ section .textone {
 }
 
 section .leftheader {
+    font-family: 'Vidaloka', serif;
     text-align: left;
     color: rgb(81, 145, 100);
     text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 section .rightheader {
+    font-family: 'Vidaloka', serif;
     text-align: right;
     color: rgb(81, 145, 100);
     text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: 40px;
 }
 main > section {
     margin-bottom: 3rem;
@@ -120,10 +127,15 @@ main>section+section+section+section img {
     float: right;
 }
 
+main section p {
+    font-size: 25px;
+    text-align: center;
+}
 
 
 /* begining of footer */
 footer {
+    font-family: 'Sorts Mill Goudy', serif;
     height: 190px;
     background-color: rgba(255, 255, 255, 0.521);
     color:black;

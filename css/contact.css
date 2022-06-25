@@ -22,6 +22,7 @@ nav {
 } 
 
 nav ul {
+  font-family: 'Vidaloka', serif;
   list-style-type: none;
   text-align: center;
 }
@@ -63,6 +64,7 @@ body {
  /* div section */
 
  h1 {
+    font-family: 'Kaushan Script', cursive;
     text-align: center;
     text-transform: uppercase;
     color: rgb(113, 205, 194);
@@ -111,14 +113,17 @@ article form {
     top: 5%;
     border-radius: 10px;
     text-align: center;
+    font-family: 'Vidaloka', serif;
     color: rgb(81, 145, 100);
   }
   
 article .container {
+  font-family: 'Sorts Mill Goudy', serif;
     background-color: #f1f1f1;
   }
   
 article input[type=text], input[type=submit] {
+    font-family: 'Sorts Mill Goudy', serif;
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -133,6 +138,7 @@ article input[type=checkbox] {
   }
   
 article input[type=submit] {
+  font-family: 'Sorts Mill Goudy', serif;
     background-color: rgb(113, 205, 194);;
     color: white;
     border: none;
@@ -148,6 +154,7 @@ article input[type=submit]:hover {
 /* FOOTER STARTS BELOW */
 
 footer{
+    font-family: 'Sorts Mill Goudy', serif;
     width: 100%;
     height: 190px;
     clear: both;

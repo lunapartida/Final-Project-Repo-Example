@@ -30,6 +30,7 @@ body {
 } 
 
  nav ul {
+    font-family: 'Vidaloka', serif;
      list-style-type: none;
      text-align: center;
  }
@@ -135,6 +136,7 @@ main .photoleft {
   } */
 
  footer {
+    font-family: 'Sorts Mill Goudy', serif;
     height: 190px;
     clear:both;
     background-color: rgba(255, 255, 255, 0.521);

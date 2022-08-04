@@ -54,7 +54,7 @@ nav ul li a:hover {
  /* body section */
 
 body {
-    background-image: url("/img/greenwater.jpg");
+    background-image: url("../img/greenwater.jpg");
     background-repeat: repeat;
 }
 
